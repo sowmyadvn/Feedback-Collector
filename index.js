@@ -10,7 +10,7 @@ const app = express();
 // res => object representing the response data, body of arrow function => send JSON
 // data "{hi:'there'}" as response 
 app.get('/',(req,res) => {
-    res.send({hi : 'there'});
+    res.send({hi : 'SomTej'});
 });
 
 // tells node to listen on port set by heroku during rum-time or default it to 5000 if not set
